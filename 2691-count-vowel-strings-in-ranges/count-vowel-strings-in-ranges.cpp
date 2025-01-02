@@ -17,7 +17,7 @@ public:
         return res;
     }
 
-    bool isVowel(char ch) {
+    bool isVowel(char& ch) {
         return (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
     }
 };
