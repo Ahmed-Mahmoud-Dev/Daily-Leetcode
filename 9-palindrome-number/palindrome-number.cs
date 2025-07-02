@@ -9,7 +9,7 @@ public class Solution
             reverse = reverse * 10 + tmp % 10;
             tmp /= 10;
         }
-        Console.WriteLine(reverse);
+        
         return (x == reverse);
     }
 }
