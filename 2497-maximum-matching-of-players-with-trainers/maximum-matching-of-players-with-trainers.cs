@@ -12,10 +12,9 @@ public class Solution
             if (players[i] <= trainers[j])
             {
                 i++;
-                j++;
                 res++;
             }
-            else j++;
+            j++;
         }
 
         return res;
